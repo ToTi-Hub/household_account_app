@@ -52,13 +52,16 @@ https://github.com/ToTi-Hub/household_account_app.git
 
 プロジェクトのルートディレクトリに移動します。
 
+
 cd household_account_app
 
 必要なライブラリを requirements.txt からインストールします。
 
+
 pip install -r requirements.txt
 
 コマンドを実行してアプリを起動します。
+
 
 streamlit run main.py
 
@@ -67,7 +70,6 @@ streamlit run main.py
 ---
 
 製作者
-
-結石 敏矢
+　結石 敏矢
 
 GitHub: https://github.com/ToTi-Hub
