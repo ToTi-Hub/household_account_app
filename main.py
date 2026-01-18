@@ -29,7 +29,7 @@ with st.sidebar.form("entry_form"):
       new_trans = Transaction(date_input, category, item, amount)
       manager.add_transaction(new_trans)
       st.success("追加しました！")
-      st.experimental_rerun()
+      st.rerun()
     else:
       st.error("内容と金額を入力してください。")
 
@@ -75,7 +75,7 @@ if not df.empty:
 
     if c5.button("削除", key=f"delete_{idx}"):
       manager.delete_transaction(idx)
-      st.experimental_rerun()
+      st.rerun()
 
   # =========================
   # 修正（編集）
@@ -120,7 +120,7 @@ if not df.empty:
       )
       manager.update_transaction(edit_index, updated_trans)
       st.success("更新しました！")
-      st.experimental_rerun()
+      st.rerun()
 
 else:
   st.info("まだデータがありません。左側から追加してください。")
