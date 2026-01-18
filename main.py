@@ -16,7 +16,7 @@ with st.sidebar.form("entry_form"):
   date_input = st.date_input("日付")
   category = st.selectbox(
       "カテゴリ",
-      ["食費", "交通費", "趣味", "光熱費", "その他"]
+      ["食費", "交通費", "趣味", "日用品", "その他"]
   )
   item = st.text_input("内容")
   amount = st.number_input("金額（円）", min_value=0, step=100)
