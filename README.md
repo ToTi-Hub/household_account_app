@@ -50,15 +50,21 @@ Python と Streamlit を用いて制作した、シンプルな家計簿管理�
 
 https://github.com/ToTi-Hub/household_account_app.git
 
-プロジェクトのルートディレクトリに移動します。<br>
+プロジェクトのルートディレクトリに移動します。
+
+
 
 cd household_account_app
 
-必要なライブラリを requirements.txt からインストールします。<br>
+必要なライブラリを requirements.txt からインストールします。
+
+
 
 pip install -r requirements.txt
 
-コマンドを実行してアプリを起動します。<br>
+コマンドを実行してアプリを起動します。
+
+
 
 streamlit run main.py
 
